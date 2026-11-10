@@ -1,0 +1,1 @@
+import{a as e,i as t,r as n,t as r}from"./index-NvZ_swKE.js";var i={},a={class:`about`};function o(r,i){return e(),t(`div`,a,[...i[0]||=[n(`p`,null,`Smth Smth about Rythmancy.`,-1),n(`p`,{class:`fs-5`},`Am i qualified to talk about dis?.`,-1)]])}var s=r(i,[[`render`,o]]);export{s as default};
