@@ -1,20 +1,21 @@
 # Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+dev/logs
+dev/*.log
+dev/npm-debug.log*
+dev/yarn-debug.log*
+dev/yarn-error.log*
+dev/pnpm-debug.log*
+dev/lerna-debug.log*
 
-node_modules
-.DS_Store
-dist-ssr
-coverage
-*.local
+dev/node_modules
+dev/.DS_Store
+dev/dist
+dev/dist-ssr
+dev/coverage
+dev/*.local
 
-/cypress/videos/
-/cypress/screenshots/
+/dev/cypress/videos/
+/dev/cypress/screenshots/
 
 # Editor directories and files
 .vscode/*
@@ -26,7 +27,7 @@ coverage
 *.sln
 *.sw?
 # private files to manage repo
-fullup.cmd
-package copy.json
-package_empty.json
-package-lock.json
+dev/fullup.cmd
+dev/package copy.json
+dev/package_empty.json
+dev/package-lock.json
