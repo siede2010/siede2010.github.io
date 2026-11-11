@@ -24,9 +24,10 @@ const teamMembers = [
 </script>
 
 <template>
-  <div style="display:flex">
-    <div class="card" style="width: 18rem; height: 100%" v-for="member of teamMembers">
-      <img class="card-img-top" src="../../public/img/Standin.png" alt="Card image cap">
+  <h3>The Team</h3>
+  <div class="container-fluid row" style="display:flex;justify-content: center;">
+    <div class="col-3 card" style="width: 18rem;" v-for="member of teamMembers">
+      <img class="card-img-top" src="../assets/Standin.png" style="image-rendering: pixelated;" :alt="member.Name + ' Image'">
       <div class="card-body">
         <h5 class="card-title">{{member.Name}}</h5>
 
